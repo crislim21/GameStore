@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Image from "next/image";
 import RegisterForm from "../components/register/registerForm";
 import Link from "next/link";
