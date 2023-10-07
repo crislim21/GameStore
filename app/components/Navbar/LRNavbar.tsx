@@ -1,13 +1,9 @@
 import Link from "next/link";
 import React from "react";
 
-interface NavbarProps {
-  links: { name: string; url: string }[];
-}
-
-const Navbar = () => {
+const LRNavbar = () => {
   return (
-    <nav className="p-4 text-dark">
+    <nav className="py-4 text-dark mx-72">
       <div className="mx-auto flex justify-between items-center">
         <ul className="flex items-center space-x-8">
           {/* Adjust spacing */}
@@ -39,6 +35,15 @@ const Navbar = () => {
                 className="w-96 pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
               />
             </div>
+          </li>
+          <li>
+            <Link href="/store">Store</Link>
+          </li>
+          <li>
+            <Link href="/library">Library</Link>
+          </li>
+          <li>
+            <Link href="/profile">Profile</Link>
           </li>
         </ul>
 
@@ -72,4 +77,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default LRNavbar;

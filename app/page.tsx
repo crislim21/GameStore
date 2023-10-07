@@ -1,23 +1,22 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/LRNavbar";
 import React from "react";
+import HomeNavbar from "./components/Navbar/HomeNavbar";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="mx-72">
+      <div className="">
+        <div className="bg-home">
+          <div className="">
+            <HomeNavbar />
+          </div>
+        </div>
         <div className="text-center">
           {/* Add a div with flex properties to center the image */}
-          <div className="flex justify-center items-center">
-            <Image
-              src="/images/image1.jpg"
-              alt="Picture of the author"
-              width={1300}
-              height={300}
-            />
-          </div>
-          <div className="border m-4 px-5 py-3 rounded-lg border-blue-500 shadow-xl">
+          <div className="flex justify-center items-center"></div>
+          <div className="border mx-10 my-4 px-5 py-3 rounded-lg border-blue-500 shadow-xl">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Explicabo dicta est qui labore neque. Eligendi quo laborum illum

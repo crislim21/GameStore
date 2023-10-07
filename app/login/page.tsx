@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Image from "next/image";
 import LoginForm from "../components/login/loginForm";
 import Link from "next/link";
+import LRNavbar from "../components/Navbar/LRNavbar";
 const page = () => {
   return (
     <>
-      <Navbar />
+      <LRNavbar />
       <div className="bg-library">
         <div className="container mx-auto p-0 h-screen flex justify-center items-center">
           <div
