@@ -15,7 +15,6 @@ export default function Home() {
         </div>
         <div className="text-center">
           {/* Add a div with flex properties to center the image */}
-          <div className="flex justify-center items-center"></div>
           <div className="border mx-10 my-4 px-5 py-3 rounded-lg border-blue-500 shadow-xl">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.

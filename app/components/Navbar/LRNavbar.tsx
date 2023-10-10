@@ -12,30 +12,6 @@ const LRNavbar = () => {
               Game <span className="text-blue-500">Store</span>
             </Link>
           </li>
-          {/* Add the search bar with search icon */}
-          <li className="relative">
-            <div className="relative">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                />
-              </svg>
-              <input
-                type="text"
-                placeholder="Search for games"
-                className="w-96 pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
-              />
-            </div>
-          </li>
           <li>
             <Link href="/store">Store</Link>
           </li>
